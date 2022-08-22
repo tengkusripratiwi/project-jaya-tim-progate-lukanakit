@@ -1,0 +1,80 @@
+.nav-items{
+	width: 50%;
+	margin-right: 30px;
+}
+
+
+
+
+.details{
+	text-align: center;
+	margin:0 auto;
+	padding-bottom: 30px;
+}
+
+
+.card-profile{
+	margin: 0 auto;
+	margin-bottom:30px;
+	width: 250px;
+}
+
+.card-profile p{
+	overflow-wrap: break-word;
+}
+
+.card-profile img{
+	width: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+	.nav-items{
+		width: 30%;
+	}
+	
+	.team-profile{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	
+}
+
+@media only screen and (min-width: 700px){
+	.details{
+		margin-top: 100px;
+	}
+	.card-profile{
+		margin: o auto;
+		width: 30%;
+	}
+
+	.card-profile img{
+		width: 40%;
+	}
+
+	.team-profile{
+		display: flex;
+		justify-content: center;
+	}
+
+	.about{
+		width: 500px;
+		margin: 0 auto;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
